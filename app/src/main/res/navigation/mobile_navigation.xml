@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_post_trip">
+
+    <fragment
+        android:id="@+id/nav_post_trip"
+        android:name="pt.ipbeja.boleias.ui.home.HomeFragment"
+        android:label="@string/mytrips"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_trips"
+        android:name="pt.ipbeja.boleias.ui.maps.MapsFragment"
+        android:label="@string/maps_title"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="pt.ipbeja.boleias.ui.about.AboutFragment"
+        android:label="@string/menu_aboufragment"
+        tools:layout="@layout/layout_logout" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="pt.ipbeja.boleias.ui.about.AboutFragment"
+        android:label="Sobre Nós"
+        tools:layout="@layout/layout_logout"
+     />
+</navigation>

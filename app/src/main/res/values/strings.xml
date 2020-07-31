@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Boleias</string>
+    <string name="title_activity_menu" translatable="false">Menu</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_home" translatable="false">Home</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+
+    <string name="btn_enter">ENTRAR</string>
+    <string name="btn_confirm">CONFIRMAR</string>
+    <string name="btn_register">REGISTAR</string>
+    <string name="btn_cancel">CANCELAR</string>
+    <string name="btn_add_local">ADICIONAR LOCAIS</string>
+    <string name="btn_hour">HORA</string>
+    <string name="btn_date">DATE</string>
+
+
+    <string name="register">Registar</string>
+    <string name="select_email_text" translatable="false">Email</string>
+    <string name="select_password_text">Palavra-passe</string>
+    <string name="select_name_text">Nome</string>
+    <string name="select_phone_text">Telemovel</string>
+
+
+    <string name="login_title">INICIAR SESSÃO</string>
+    <string name="login_subtitle">Por favor, insira o email para entrar</string>
+
+    <string name="menu_homefragment">Publicar viagem</string>
+    <string name="menu_searchfragment">Procurar</string>
+    <string name="menu_aboufragment">Sobre Nós</string>
+    <string name="menu_logout">Terminar Sessão</string>
+
+    <string name="text_to">para</string>
+    <string name="text_delete">Eliminar tudo</string>
+
+    <string name="addTravel">Adicionar Viagem</string>
+    <string name="local_from_text">Local de partida</string>
+    <string name="local_to_text">Local de chegada</string>
+    <string name="hour_text">Insira uma hora de partida</string>
+    <string name="date_text">Insira uma data</string>
+
+    <string name="description_title">DESCRIÇÃO DA BOLEIA</string>
+
+    <string name="alert_email">Por favor, insira o email</string>
+    <string name="alert_password">Por favor, insira a password</string>
+    <string name="alert_password_lengh">Password muito curta !!!</string>
+
+    <string name="alert_fields">Por favor verifique todos os campos</string>
+
+    <string name="regist_success">Registado com sucesso !!!</string>
+    <string name="regist_fail">Falha no registo</string>
+    <string name="regist_complete">Registo Completo !!!</string>
+
+    <string name="camara">Camera</string>
+    <string name="gallery">Galeria</string>
+    <string name="add_image">Acicionar Imagem</string>
+    <string name="select_image">Selecione a Imagem</string>
+    <string name="error_locals">Erro... Insira novamente as localidades</string>
+
+    <string name="about_text">Pense nisto. Se todas as pessoas partilhassem as viagens e não fosse nenhum lugar vago desperdiçado no carro, haveria menos carros na estrada - o que levaria a menos acidentes, menores tempo em viagem, melhor qualidade do ar
+    e uma condução mais segura para todos. Apesar de sabermos que ainda estamos muito distantes de se tornar uma realidade, a aplicação Boleias procura dar um primeiro passo para um planeta melhor, através de um serviço gratuito
+    de boleias e partilha de viagens.\n\n
+
+    Nesta aplicação é possível, procurar pessoas que vão para o mesmo destino do que o seu, assim pode contacta-las para partilharem a viagem.\n\n
+    Da mesma forma pode publicar as viagens que irá realizar para que outros utilizadores se juntem a si, contribuindo para um planeta melhor.\n\n
+
+    Para pertencer a comunidade Boleias é necessário o registo na aplicação.</string>
+    <string name="maps_title">Encontrar Boleias</string>
+
+    <string name="mytrips">Minhas Boleias</string>
+
+
+
+
+</resources>

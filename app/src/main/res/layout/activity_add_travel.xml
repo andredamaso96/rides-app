@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardElevation="6dp">
+
+    <include
+        android:id="@+id/toolbar_alt"
+        layout="@layout/toolbar"
+        />
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/edt_city"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/toolbar_alt">
+
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/edtCityFrom"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        android:textSize="16sp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:inputType="text"
+        android:hint="@string/local_from_text"/>
+
+    <com.rengwuxian.materialedittext.MaterialAutoCompleteTextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/edtCityTo"
+        app:met_primaryColor="@color/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_singleLineEllipsis="true"
+        android:textSize="16sp"
+        android:textColorHint="@color/colorPrimary"
+        android:textColor="@color/colorPrimary"
+        android:text=""
+        android:inputType="text"
+        android:hint="@string/local_to_text"/>
+
+        <Button
+            android:id="@+id/btnAddCoordinates"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_photo_background"
+            android:text="@string/btn_add_local"
+            android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_hour"
+    android:layout_below="@+id/edt_city"
+    android:layout_margin="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:id="@+id/btnHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_hour"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+
+        android:id="@+id/edtHour"
+        android:hint="@string/hour_text"
+        android:inputType="text"
+        android:text=""
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:met_singleLineEllipsis="true"
+        app:met_baseColor="@color/colorPrimary"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorPrimary"
+        />
+
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+
+        android:layout_below="@+id/layout_hour"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/btnDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_date"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:id="@+id/edtDate"
+            android:hint="@string/date_text"
+            android:inputType="text"
+            android:text=""
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            app:met_singleLineEllipsis="true"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@color/colorPrimary"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btnConfirmTravel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_photo_background"
+            android:text="@string/btn_confirm"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

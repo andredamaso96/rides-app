@@ -1,0 +1,18 @@
+Projecto realizado por 15307 André Dâmaso e 15416 Emanuel Cardoso
+
+Requisitos Implementados:
+
+Req - Interface com o utilizador 
+Req - Mapa 
+Req - Fotos e Galeria
+Req - Base de Dados e Ficheiros
+Req - Fonte de Dados Remota
+Req - Firebase
+Req - Texto de Apresentação
+Req - Assincronismo/concorrência
+
+Nota: 18
+
+15307 André Dâmaso
+
+

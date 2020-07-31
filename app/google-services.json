@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "851019046082",
+    "firebase_url": "https://boleias-704ab.firebaseio.com",
+    "project_id": "boleias-704ab",
+    "storage_bucket": "boleias-704ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851019046082:android:116ed7b159f0890230ef5b",
+        "android_client_info": {
+          "package_name": "pt.ipbeja.boleias"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851019046082-b262j8ft11vovnorup7n943b2sclqodh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pt.ipbeja.boleias",
+            "certificate_hash": "a04050827c7d34aaff14f49c224fd3c7a6df8b8f"
+          }
+        },
+        {
+          "client_id": "851019046082-4boioups13u7cgklsa9vcei2us4o0oq8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqda5zMt1xFqcRJy2gNfecL44hAp7uhYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851019046082-4boioups13u7cgklsa9vcei2us4o0oq8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
